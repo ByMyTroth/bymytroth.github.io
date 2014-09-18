@@ -1,9 +1,11 @@
 body {font-size: 22px;
 	  font-family: Arial, sans-serif;
 	  color:black;
-	  background-image: url("img/Joker5.jpg");
+	  background-image: url("../img/Joker5.jpg");
+	  background-size: cover;
+	  background-position: left;
 	  
-	}
+	  }
 
 p{
 	color: red;

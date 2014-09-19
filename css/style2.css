@@ -1,10 +1,10 @@
-#Welcome {color: green}
+#Welcome {color: grey}
 header {background-image: url("../img/banner2.jpg");}
 footer {background-image: url("../img/banner2.jpg");}
 
 body {
 	font-size: 20px;
-	font-family: Magneto, serif;
+	font-family: Calibri, serif;
 	color:black;
 	/*background-image: url("../img/Joker6.jpg");*/
 	background-size: cover;
@@ -14,19 +14,34 @@ body {
 
 p{
 	color: #610B21;
-	font-family: Magneto, serif;
+	font-family: Calibri, serif;
 	font-size: .7em;
 	/*size: 18px;*/
 	width: 600px;
-	margin: 0 auto;
+	margin: 30 auto;
 	/*border: 2px solid black;*/
 }
 
+<style>
+h1 {
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    text-decoration: 
+}
+</style>
 
+<style>
+h2 {
+    position: absolute;
+    left: 10px;
+    top: 200px;
+}
+</style> 
 
-ul{
-	list-style: none;
-	display: inline;
+.ul{
+	list-style: vertical: text-top-left;
+	/*display: list-item;*/
 
 }
 
@@ -50,8 +65,8 @@ a:visited {
 
 
 
-footer {
-	background-color: black;
+.footer {
+	background-image:url('../img/banner2.jpg');
 }
 
 .joking {
@@ -66,7 +81,9 @@ footer {
 .center {
 	text-align: center;
 }
-
+.left {
+	text-align: left;
+}
 .container {
 	border: 2px solid blue; 
 	background-color: #E119B9;

@@ -1,16 +1,15 @@
-#Welcome {color: #936B09
+#Welcome {color: black	
 				}
 header {background-image: url("../img/banner2.jpg");}
 /*footer {background-image: url("../img/banner2.jpg");}*/
 /*--------------------------------------------------------*/
 body {
-	font-size: 22px;
+	/*font-size: 12px;*/
 	font-family: Verdana, serif;
 	color: #936B09;
-	/*background-size: stretch;*/
-	background-position: center;
-	
-		}
+	background-size: stretch;
+
+	 }
 
 p{
 	color: #936B09;
@@ -24,6 +23,7 @@ h2 {
     position: absolute;
     left: 10px;
     top: 200px;
+    font-size: 22px;
 }
 /*--------------------------------------------------------*/
 a:link{
@@ -60,13 +60,12 @@ a:visited {
 	background-size: cover;
 	background-position: center;
 	background-clip: 5px
-	
-	
 	background-origin:fill-box;
 }
 /*--------------------------------------------------------*/
 .center {
 	text-align: center;
+	p
 }
 /*--------------------------------------------------------*/
 .justify {

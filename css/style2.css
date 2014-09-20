@@ -14,7 +14,7 @@ body {
 /*--------------------------------------------------------*/
 p{
 	color: #936B09;
-	font-family: Calibri, serif;
+	font-family: Verdana, serif;
 	font-size: .7em;
 	width: 600px;
 	margin: 30 auto;
@@ -27,7 +27,7 @@ h2 {
 }
 /*--------------------------------------------------------*/
 a:link{
-	text-decoration: none;
+	text-decoration: gold;
 }
 /*--------------------------------------------------------*/
 a:hover {
@@ -45,7 +45,6 @@ a:visited {
 /*---------------------------------------------------------*/
 .list-group-item{
 	display: block;
-
 }
 /*---------------------------------------------------------*/
 .footer {
@@ -60,11 +59,19 @@ a:visited {
 	background: url('../img/Joker612.jpg'); no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-origin:border-box;
+	background-clip: 5px
+	/*background-origin:border-box;*/
+	
+	background-origin:fill-box;
 }
 /*--------------------------------------------------------*/
 .center {
 	text-align: center;
+}
+/*--------------------------------------------------------*/
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
 }
 /*--------------------------------------------------------*/
 .left {

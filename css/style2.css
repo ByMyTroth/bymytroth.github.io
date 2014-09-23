@@ -1,7 +1,7 @@
 #Welcome {color: black	
 				}
-header {background-image: url("../img/banner2.jpg");}
-footer {background-image: url("../img/banner2.jpg");}*/
+header {background-image: url("../img/Joker612.jpg");}
+footer {background-image: url("../img/Joker612.jpg");}*/
 /*--------------------------------------------------------*/
 body {
 	/*font-size: 12px;*/
@@ -31,16 +31,17 @@ a:link{
 }
 /*--------------------------------------------------------*/
 a:hover {
-	color: #1E1B1B;
+	color: blue;
 }
 /*--------------------------------------------------------*/
 a:visited {
-	color: #FFFFFF;
+	color: grey;
 }
 /*--------------------------------------------------------*/
 .list-group{
-	position: absolute;
-	top: 250px;
+	position: fixed;
+	top: 250px
+	
 }
 /*---------------------------------------------------------*/
 .list-group-item{
@@ -48,8 +49,9 @@ a:visited {
 }
 /*---------------------------------------------------------*/
 .footer {
-	background-image:url('../img/banner2.jpg');
-	background-size: stretch;
+	background-image:url('../img/Joker612.jpg');
+	background-size: cover;
+	border-image:url('../img/Joker612.jpg');
 }
 /*--------------------------------------------------------*/
 
@@ -65,7 +67,6 @@ a:visited {
 /*--------------------------------------------------------*/
 .center {
 	text-align: center;
-	p
 }
 /*--------------------------------------------------------*/
 .justify {
@@ -91,7 +92,12 @@ a:visited {
 /*--------------------------------------------------------*/
 .hidden{display: none;}
 /*--------------------------------------------------------*/
-p.small {
+/*p.small {
     font-variant: small-caps;
-}
+}*/
 /*--------------------------------------------------------*/
+.navbar {padding: 20px 0;
+		border-bottom: 0px;
+		letter-spacing: 1px;
+		background: 0 0;
+}

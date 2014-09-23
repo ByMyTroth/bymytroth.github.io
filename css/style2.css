@@ -1,13 +1,13 @@
 #Welcome {color: black	
 				}
 header {background-image: url("../img/Joker612.jpg");}
-footer {background-image: url("../img/Joker612.jpg");}*/
+footer {background-image: url("../img/banner2.jpg");}
 /*--------------------------------------------------------*/
 body {
 	/*font-size: 12px;*/
 	font-family: Verdana, serif;
 	color: #936B09;
-	background-size: stretch;
+	background-size: cover;
 
 	 }
 
@@ -19,15 +19,15 @@ p{
 	margin: 30 auto;
 }
 /*--------------------------------------------------------*/
-h2 {
-    position: absolute;
-    left: 10px;
-    top: 200px;
-    font-size: 22px;
+h1 {
+    position: center;
+    /*left: 200px;
+    top: 20px;*/
+    font-size: 20px;
 }
 /*--------------------------------------------------------*/
 a:link{
-	text-decoration: gold;
+	text-decoration: red;
 }
 /*--------------------------------------------------------*/
 a:hover {
@@ -35,24 +35,27 @@ a:hover {
 }
 /*--------------------------------------------------------*/
 a:visited {
-	color: grey;
+	color: yellow;
 }
 /*--------------------------------------------------------*/
 .list-group{
 	position: fixed;
-	top: 250px
-	
+	top: 200px
 }
 /*---------------------------------------------------------*/
 .list-group-item{
 	display: block;
+
 }
 /*---------------------------------------------------------*/
 .footer {
 	background-image:url('../img/Joker612.jpg');
-	background-size: cover;
+	background-size: cover; 
 	border-image:url('../img/Joker612.jpg');
+	position: center;
+    font-size: 40px;
 }
+	
 /*--------------------------------------------------------*/
 
 .joking {
@@ -61,7 +64,7 @@ a:visited {
 	background: url('../img/Joker612.jpg'); no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-clip: 5px
+	background-clip: 100px
 	background-origin:fill-box;
 }
 /*--------------------------------------------------------*/
@@ -96,8 +99,8 @@ a:visited {
     font-variant: small-caps;
 }*/
 /*--------------------------------------------------------*/
-.navbar {padding: 20px 0;
-		border-bottom: 0px;
-		letter-spacing: 1px;
+.navbar {padding: 50px 12;
+		border-bottom: 100px;
+		letter-spacing: 15px;
 		background: 0 0;
 }

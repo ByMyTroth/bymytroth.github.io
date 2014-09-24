@@ -8,10 +8,7 @@ body {
 	font-family: Verdana, serif;
 	color: white;
 	font-size: 12pt
-
-
 	 }
-
 p{
 	color: #red;
 	font-family: Verdana, serif;
@@ -22,8 +19,9 @@ p{
 /*--------------------------------------------------------*/
 h1 {
     /*position: center;*/
-    font-size: 2em;
+    font-size: 3em;
     font-family: Verdana;
+
    }
 /*--------------------------------------------------------*/
 .headersize{
@@ -33,7 +31,7 @@ h1 {
 }
 /*--------------------------------------------------------*/
 a:link{
-	text-decoration: red;
+	text-decoration: blue;
 }
 /*--------------------------------------------------------*/
 a:hover {
@@ -85,16 +83,23 @@ a:visited {
 	text-align: left;
 }
 /*--------------------------------------------------------*/
-.container {
+/*.container {
 	border: 2px solid white; 
 	background-color: white;
 	color: green;
 	text-align: center;
-}
+}*/
 /*--------------------------------------------------------*/
 .box {
 	position: fixed;
-		left: 12%;	
+		left: 12%;
+		top: 12%;	
+}
+
+.box2 {
+	position: fixed;
+		left: 12%;
+		top: 12%;	
 }
 /*--------------------------------------------------------*/
 .hidden{display: none;}
@@ -106,8 +111,8 @@ a:visited {
 		background: 0 0;
 }
 /*--------------------------------------------------------*/
-.fa-border {
+/*.fa-border {
 padding: .2em .25em .15em;
 border: solid 0.08em blue;
 border-radius: .1em;
-}
+}*/

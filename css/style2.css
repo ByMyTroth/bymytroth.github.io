@@ -15,18 +15,18 @@ h1 {
     position: left;
     font-size: 30pt;
     font-family: Edwardian Script ITC;
-    padding-left: 450px;
-    padding-top: 17px
+    padding-left: 445px;
+    padding-top: 10px
    }
 /*--------------------------------------------------------*/
 a:link{
-	color: blue;
+	color: red;
 }
 a:hover {
 	color: #FF00FF;
 }
 a:visited {
-	color: black;
+	color: yellow;
 }
 a:active {
     color: #0000FF;
@@ -34,7 +34,7 @@ a:active {
 /*--------------------------------------------------------*/
 .list-group{
 	position: fixed;
-	top: 200px;
+	top: 175px;
 	padding-left: 25px;
 }
 /*---------------------------------------------------------*/
@@ -46,7 +46,7 @@ a:active {
 /*---------------------------------------------------------*/
 .footer {
 	font-family: calibri;
-	font-size: 20px;
+	font-size: 22px;
 }
 	
 /*--------------------------------------------------------*/

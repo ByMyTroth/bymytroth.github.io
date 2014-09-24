@@ -1,18 +1,19 @@
 #Welcome {color: black	
 				}
-header {background-image: url("../img/Joker612.jpg");}
-footer {background-image: url("../img/banner2.jpg");}
+header {background-image: url("../img/banner3.jpg");}
+footer {background-image: url("../img/banner3.jpg");}
 /*--------------------------------------------------------*/
 body {
 	/*font-size: 12px;*/
 	font-family: Verdana, serif;
-	color: #936B09;
-	background-size: cover;
+	color: white;
+	font-size: 12pt
+
 
 	 }
 
 p{
-	color: #936B09;
+	color: #red;
 	font-family: Verdana, serif;
 	font-size: .7em;
 	width: 600px;
@@ -20,10 +21,15 @@ p{
 }
 /*--------------------------------------------------------*/
 h1 {
-    position: center;
-    /*left: 200px;
-    top: 20px;*/
-    font-size: 20px;
+    /*position: center;*/
+    font-size: 2em;
+    font-family: Verdana;
+   }
+/*--------------------------------------------------------*/
+.headersize{
+	position: center;
+    font-size: .7em;
+    padding: 300px
 }
 /*--------------------------------------------------------*/
 a:link{
@@ -40,7 +46,8 @@ a:visited {
 /*--------------------------------------------------------*/
 .list-group{
 	position: fixed;
-	top: 200px
+	top: 200px;
+	padding-left: 33px;
 }
 /*---------------------------------------------------------*/
 .list-group-item{
@@ -49,11 +56,8 @@ a:visited {
 }
 /*---------------------------------------------------------*/
 .footer {
-	background-image:url('../img/Joker612.jpg');
-	background-size: cover; 
-	border-image:url('../img/Joker612.jpg');
-	position: center;
-    font-size: 40px;
+	font-family: Arial;
+	font-size: 1.0em;
 }
 	
 /*--------------------------------------------------------*/
@@ -63,9 +67,9 @@ a:visited {
 	height: 575px;
 	background: url('../img/Joker612.jpg'); no-repeat;
 	background-size: cover;
-	background-position: center;
+	background-position: left;
 	background-clip: 100px
-	background-origin:fill-box;
+	background-origin: fill;
 }
 /*--------------------------------------------------------*/
 .center {
@@ -82,25 +86,28 @@ a:visited {
 }
 /*--------------------------------------------------------*/
 .container {
-	border: 2px solid blue; 
-	background-color: #E119B9;
+	border: 2px solid white; 
+	background-color: white;
 	color: green;
 	text-align: center;
 }
 /*--------------------------------------------------------*/
 .box {
-	position: absolute;
+	position: fixed;
 		left: 12%;	
 }
 /*--------------------------------------------------------*/
 .hidden{display: none;}
+
 /*--------------------------------------------------------*/
-/*p.small {
-    font-variant: small-caps;
-}*/
-/*--------------------------------------------------------*/
-.navbar {padding: 50px 12;
+.navbar {padding: 15px 20;
 		border-bottom: 100px;
 		letter-spacing: 15px;
 		background: 0 0;
+}
+/*--------------------------------------------------------*/
+.fa-border {
+padding: .2em .25em .15em;
+border: solid 0.08em blue;
+border-radius: .1em;
 }

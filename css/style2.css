@@ -1,13 +1,14 @@
 /*#Welcome {color: blue	
 				}*/
-header {background-image: url("../img/banner3.jpg");}
-footer {background-image: url("../img/banner4.jpg");}
+header {background-image: url("../img/banner2.jpg");}
+footer {background-image: url("../img/banner3.jpg");}
 /*--------------------------------------------------------*/
-body {
-	
-	font-type: Edwardian Script ITC, serif;
+body {	
+	<b>
+	font-type: Edwardian Script ITC, sans-serif;
 	color: white;
 	font-size: 12pt
+	</b>
 	 }
 
 /*--------------------------------------------------------*/
@@ -15,21 +16,21 @@ h1 {
     position: left;
     font-size: 30pt;
     font-family: Edwardian Script ITC;
-    padding-left: 445px;
+    padding-left: 400px;
     padding-top: 10px
    }
 /*--------------------------------------------------------*/
 a:link{
-	color: red;
+	color: yellow;
 }
 a:hover {
-	color: #FF00FF;
+	color: blue;
 }
 a:visited {
 	color: yellow;
 }
 a:active {
-    color: #0000FF;
+    color: yellow;
 }
 /*--------------------------------------------------------*/
 .list-group{
@@ -39,14 +40,14 @@ a:active {
 }
 /*---------------------------------------------------------*/
 .list-group-item{
-	display: block;
-	font-size: 20pt;
-
+	display:block;
+	font-size: 16pt;
 }
 /*---------------------------------------------------------*/
 .footer {
 	font-family: calibri;
-	font-size: 22px;
+	font-size: 10px;
+	padding-left: 600px;
 }
 	
 /*--------------------------------------------------------*/
@@ -92,6 +93,16 @@ a:active {
 		left: 12%;
 		top: 12%;	
 }
+.box6 {
+	position: fixed;
+		left: 12%;
+		top: 12%;	
+}
+.box7 {
+	position: fixed;
+		left: 12%;
+		top: 12%;	
+}
 /*--------------------------------------------------------*/
 .hidden{display: none;}
 
@@ -103,7 +114,7 @@ a:active {
 }
 /*--------------------------------------------------------*/
 #background {
-    position: absolute;
+    position: fixed;
     height: 100%;
     width:  100%;
 }
@@ -127,3 +138,8 @@ padding:5px
 margin: 5px
 
 }
+/************************************************************/
+.mySpan
+span#mySpan {
+	display:block;
+} 	

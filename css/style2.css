@@ -1,7 +1,7 @@
 #Welcome 
 
 header {background-color: black;}
-/*footer {background-color: clear;}*/
+footer {background-color: white;}
 /*--------------------------------------------------------*/
 body {	
 	background-image: url("../img/joker.jpg");
@@ -87,27 +87,27 @@ div.scroll {
 		top: 13%;	
 }
 #box2 {
-	position: fixed;
+	position: absolute;
 		left: 13%;
 		top: 13%;		
 }
 #box3 {
-	position: relative;
+	position: absolute;
 		left: 13%;
 		top: 13%;	
 }
 #box4 {
-	position: relative;
+	position: absolute;
 		left: 13%;
 		top: 13%;		
 }
 #box5 {
-	position: relative;
+	position: absolute;
 		left: 13%;
 		top: 13%;		
 }
 #box6 {
-	position: relative;
+	position: absolute;
 		left: 13%;
 		top: 13%;		
 }
@@ -166,9 +166,9 @@ margin: 5px
 
 }*/
 /************************************************************/
-/*.mySpan
+.mySpan
 span#mySpan {
-	display:block;*/
+	display:block;
 /*********************************************************/
 /*.footer {
 	width: fill;

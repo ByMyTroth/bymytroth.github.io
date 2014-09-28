@@ -8,9 +8,9 @@ var shit=document.getElementById(this.
 
 	var blox = document.getElementById("box").children
 	for (var i=blox.length -1; i >=0; i--){
-		blox[i].classList.add("hidden")
+		blox[i].classList.add('hidden')
 	}
-	shit.classList.remove("hidden")
+	shit.classList.remove('hidden')
 }
 	for (var i = menu.length - 1; i >= 0; i--) {
 		menu[i].addEventListener("click", clicker)
